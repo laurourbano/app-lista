@@ -1,80 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-body, html{
-    max-height: 90vdh;
-    width: 100%;
-    background-color: #2b2b2b;
+body,
+html {
+  max-height: 90vdh;
+  width: 100%;
+  background-color: #2b2b2b;
 }
-nav{
-    display: flex;
-    background-color: #1b1b1b;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 10dvh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+nav {
+  display: flex;
+  background-color: #1b1b1b;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10dvh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-nav h1{
-    color: white;
-    font-size: 1.5rem;
-    letter-spacing: 3px;
+nav h1 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
 }
-nav ul{
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    color: #999999;
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  color: #999999;
 }
-nav li{
-    list-style: none;
-    background-color: #123456;
-    border-radius: 5px;
+nav li {
+  list-style: none;
+  background-color: #123456;
+  border-radius: 5px;
 }
-nav a{
-    color: white;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 10px;
+nav a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
 }
-nav a:hover{
-    background-color: #123456;
-    color: #999999;
+nav a:hover {
+  background-color: #123456;
+  color: #999999;
 }
-main{
-    min-height: 80dvh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: sans-serif;
+main {
+  min-height: 80dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: sans-serif;
 }
-main h2{
-    font-size: 2rem;
-    color: white;
+main h2 {
+  font-size: 2rem;
+  color: white;
 }
-main p{
-    font-size: 1.2rem;
-    color: white;
+main p {
+  font-size: 1.2rem;
+  color: white;
 }
-main p a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+main p a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
-footer{
-    min-height: 10dvh;
-    background-color: #1b1b1b;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+footer {
+  min-height: 10dvh;
+  background-color: #1b1b1b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-footer p{
-    font-size: 1.2rem;
-    letter-spacing: 3px;
+footer p {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
 }
