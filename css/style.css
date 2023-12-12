@@ -26,10 +26,12 @@ nav ul{
     display: flex;
     justify-content: space-around;
     width: 30%;
-    background-color: red;
+    color: #999999;
 }
 nav li{
     list-style: none;
+    background-color: #123456;
+    border-radius: 5px;
 }
 nav a{
     color: white;
@@ -37,6 +39,11 @@ nav a{
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #123456;
+    color: #999999;
 }
 main{
     min-height: 80dvh;
