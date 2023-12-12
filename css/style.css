@@ -22,7 +22,7 @@ nav {
 }
 nav h1 {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: 3px;
 }
 nav ul {
@@ -56,11 +56,11 @@ main {
   font-family: sans-serif;
 }
 main h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
 }
 main p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
 }
 main p a {
@@ -78,6 +78,6 @@ footer {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 footer p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 3px;
 }
